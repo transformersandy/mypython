@@ -1,5 +1,6 @@
 
 
+# For loop 
 # time
 ```
 import time
@@ -77,7 +78,8 @@ for i in range(100, 1000):
 		print(i)
 
 ```
-# while loop 猜數字游戲
+# while loop 
+# 猜數字游戲
 ```
 
 #猜數字游戲_版本二:Python3
@@ -126,7 +128,7 @@ while True:
 print(sum(numbers)/len(numbers))
 
 ```
-# range
+# Range
 ```
 
 #!/usr/bin/python
