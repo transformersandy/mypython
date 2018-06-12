@@ -101,3 +101,39 @@ while (1):   # frequent used
       print("比",number,"小")
 
 ```
+# integer
+```
+
+#!/usr/bin/python
+# -*- coding: UTF-8 -*-
+
+numbers = []
+while True:
+    x = input('請輸入一個整數：')
+    try:						#異常處理結構的相關細節，詳見第7章
+        numbers.append(int(x))
+    except:
+        print('不是整數')
+    while True:
+        flag = input('繼續輸入嗎？（yes/no）')
+        if flag.lower() not in ('yes', 'no'):	#限定輸入的內容必須為yes或no
+            print('只能輸入yes或no')
+        else:
+            break
+    if flag.lower()=='no':
+        break
+
+print(sum(numbers)/len(numbers))
+
+```
+# range
+```
+
+#!/usr/bin/python
+# -*- coding: UTF-8 -*-
+
+x = 'BreakALL'
+for i in range(len(x)) :
+     print(x[i])
+# "cat XXX.py" means to print the code out 
+```
