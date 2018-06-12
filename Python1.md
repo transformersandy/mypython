@@ -19,7 +19,7 @@ else:
 # zodiac
 ```
 #!/usr/bin/python
-#-*- coding: UTF-8 -*-  # print chinese
+#-*- coding: UTF-8 -*-          # print chinese
 print("")
 print("西元年代對應到的十二生肖")
 print("")
@@ -58,10 +58,46 @@ else:
 #!/usr/bin/python
 # -*- coding: UTF-8 -*- 
  
-for i in range(1,5):
+for i in range(1,5):            # range(1,5)=1~4
     for j in range(1,5):
         for k in range(1,5):
             if( i != k ) and (i != j) and (j != k):
                 print (i,j,k)
                
+```
+# Narcisstic Number(3 digits)
+
+```
+
+for i in range(100, 1000):
+	ge =  i % 10
+	shi = i // 10 % 10   
+	bai = i // 100
+	if ge**3+shi**3+bai**3 == i:
+		print(i)
+
+```
+# while loop 猜數字游戲
+```
+
+#猜數字游戲_版本二:Python3
+#!/usr/bin/env python
+#coding=utf-8
+
+from __future__ import print_function #可有可無
+
+import random
+x = random.randint(1,100)
+
+while (1):   # frequent used
+   number = int(input("猜數字，輸入一個數字:"))
+   if x == number:
+      print("您猜對了!")
+      print(“獎品是 BreakALL{you have done a good guess}")
+      break     # a must have, else infinit
+   elif x > number:
+      print("比",number,"大")
+   elif x < number:
+      print("比",number,"小")
+
 ```
