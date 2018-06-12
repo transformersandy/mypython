@@ -129,6 +129,9 @@ print(sum(numbers)/len(numbers))
 
 ```
 # Range
+
+![我的偉大作業](pic/Range 06.12.png)
+
 # print "BREAKALL"
 ```
 
