@@ -18,6 +18,7 @@ else:
 
 ```
 # zodiac
+![Sample](pic/Zodiac.png)
 ```
 #!/usr/bin/python
 #-*- coding: UTF-8 -*-          # print chinese
@@ -129,10 +130,11 @@ print(sum(numbers)/len(numbers))
 
 ```
 # Range
-
-![我的偉大作業](pic/Range.png)
+# Basic Range Example
+![Sample](pic/Basicrange.png)
 
 # print "BREAKALL"
+![Sample](pic/Range.png)
 ```
 
 #!/usr/bin/python
