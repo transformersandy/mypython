@@ -129,6 +129,7 @@ print(sum(numbers)/len(numbers))
 
 ```
 # Range
+# print "BREAKALL"
 ```
 
 #!/usr/bin/python
@@ -138,4 +139,18 @@ x = 'BreakALL'
 for i in range(len(x)) :
      print(x[i])
 # "cat XXX.py" means to print the code out 
+```
+# 1~100 sum
+```
+
+#!/usr/bin/python
+# -*- coding: UTF-8 -*-
+ 
+tmp = 0
+for i in range(1,101):
+    tmp += i
+print ('The sum is %d' % tmp)
+
+```
+
 ```
