@@ -19,7 +19,7 @@ else:
 # zodiac
 ```
 #!/usr/bin/python
-# -*- coding: UTF-8 -*-  # print chinese
+#-*- coding: UTF-8 -*-  # print chinese
 print("")
 print("西元年代對應到的十二生肖")
 print("")
@@ -52,8 +52,11 @@ else:
     print("sheep羊")
 
 ```
+# ???
+
+```
 #!/usr/bin/python
-# -*- coding: UTF-8 -*-
+# -*- coding: UTF-8 -*- 
  
 for i in range(1,5):
     for j in range(1,5):
